@@ -1,4 +1,4 @@
-## howto_mortality_risk_container
+## How-To Docker Image Usage
 
 ### 1. Load Docker Image:
 Let `nsappslim.tar` be the docker image.
