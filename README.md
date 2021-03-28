@@ -12,9 +12,9 @@ This should show a listing of all locally available docker images.
 The entry `flask-app-slim` (or something similar, at the end of the listing), should correspond the the previously loaded image.
 To run the image, execute the following command:
 
-    docker run --name mortality -it -p 8123:1234 7398fefe04a7
+    docker run --name mortality -it -p 8123:1234 flask-app-slim
    
-NOTE: `8123` corresponds to the IP that will be forwarded on your host machine, so make sure it is open and not already bound by some other service (it shouldn't), otherwise pick another port.
+NOTE: `8123` corresponds to the IP that will be forwarded on your host machine, so make sure it is open and not already bound by some other service (it shouldn't), otherwise pick another port. Furthermore, `flask-app-slim` is the IMAGE name, this may be different if it is a slightly different image.
 
 ### 3. Install Jupyter Notebook inside the running container:
 First you have to enter the local shell of the running container, to do this execute: 
