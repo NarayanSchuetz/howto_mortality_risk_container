@@ -42,3 +42,5 @@ Then change the port the `1234` part into the port you forward to, if you didn't
     
 By pasting the new URL into the browser and pressing enter, a `jupyter notebook` window should open, where you can now start a new notebook inside the container and also upload files to it (alternatively you could also mount a local directory on your host machine, to directly access the data - google should help here).
 
+### 5. Do whatever you want in the local environment:
+An example of how to use the models inside the container is given in [`example.py`](https://github.com/NarayanSchuetz/howto_mortality_risk_container/blob/main/example.py)
